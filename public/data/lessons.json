@@ -1,0 +1,104 @@
+[
+  {
+    "id": 0,
+    "name": "Урок 1",
+    "exercises": [
+      {
+        "id": 0,
+        "name": "Упражнение 1",
+        "isResolve": false,
+        "isTooltip": true,
+        "done": 90,
+        "mistakes": 19,
+        "inaccuracy": 33,
+        "time": 100,
+        "terrocoins": 1000,
+        "type": 1
+      },
+      {
+        "id": 1,
+        "name": "Упражнение 2",
+        "isResolve": true,
+        "isTooltip": true,
+        "done": 90,
+        "mistakes": 19,
+        "inaccuracy": 33,
+        "time": 100,
+        "terrocoins": 1000,
+        "type": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Урок 2",
+    "exercises": [
+      {
+        "id": 0,
+        "name": "Упражнение 1",
+        "isResolve": false,
+        "isTooltip": false,
+        "done": 90,
+        "mistakes": 19,
+        "inaccuracy": 33,
+        "time": 100,
+        "terrocoins": 1000,
+        "type": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Урок 3",
+    "exercises": [
+      {
+        "id": 0,
+        "name": "Упражнение 1",
+        "isResolve": false,
+        "isTooltip": false,
+        "done": 30,
+        "mistakes": 19,
+        "inaccuracy": 33,
+        "time": 100,
+        "terrocoins": 500,
+        "type": 1
+      },
+      {
+        "id": 1,
+        "name": "Упражнение 2",
+        "isResolve": false,
+        "isTooltip": false,
+        "done": 30,
+        "mistakes": 19,
+        "inaccuracy": 33,
+        "time": 100,
+        "terrocoins": 500,
+        "type": 1
+      },
+      {
+        "id": 2,
+        "name": "Упражнение 3",
+        "isResolve": false,
+        "isTooltip": false,
+        "done": 30,
+        "mistakes": 19,
+        "inaccuracy": 33,
+        "time": 100,
+        "terrocoins": 500,
+        "type": 1
+      },
+      {
+        "id": 3,
+        "name": "Упражнение 4",
+        "isResolve": false,
+        "isTooltip": false,
+        "done": 30,
+        "mistakes": 30,
+        "inaccuracy": 10,
+        "time": 20,
+        "terrocoins": 500,
+        "type": 0
+      }
+    ]
+  }
+]

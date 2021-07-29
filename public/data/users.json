@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "Константин",
+    "avatar": "../../assets/mad-scientist.svg"
+  },
+  {
+    "id": 1,
+    "name": "Виталий",
+    "avatar": "../../assets/mad-scientist.svg"
+  },
+  {
+    "id": 2,
+    "name": "Михаил",
+    "avatar": "../../assets/mad-scientist.svg"
+  }
+]

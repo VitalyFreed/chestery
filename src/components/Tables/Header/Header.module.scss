@@ -1,0 +1,81 @@
+.header {
+  width: 100%;
+  border-bottom: 2px solid #F7F7F7;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 14px 12px 2px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  @mixin textStyle {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    color: #235390;
+
+    @media (max-width: 1700px) {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    @media (max-width: 1366px) {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    @media (max-width: 1100px) {
+    }
+    @media (max-width: 960px) {
+    }
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 600px) {
+    }
+    @media (max-width: 414px) {
+    }
+    @media (max-width: 375px) {
+    }
+    @media (max-width: 320px) {
+    }
+  }
+
+  a {
+    @include textStyle;
+    margin-right: 13px;
+  }
+
+  .active {
+    color: #C200AF;
+  }
+
+  &-title {
+    @include textStyle;
+    color: #C200AF;
+    margin-left: 10px;
+  }
+}
+
+
+.select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .select__exercises {
+    margin-right: 60px;
+  }
+}
+
+.link-selected {
+  color: #C200AF;
+}
